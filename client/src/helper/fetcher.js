@@ -1,0 +1,1 @@
+export const fetcher = async (url, method = 'GET', headers = {}, body) => fetch(url, {method, headers, body}).then((response) => response.json())
